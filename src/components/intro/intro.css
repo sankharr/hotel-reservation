@@ -4,7 +4,8 @@
     background-position: center;
     border-bottom-right-radius: 5rem;
     border-bottom-left-radius: 5rem;
-    height: 55rem;
+    height: 45rem;
+    z-index: 9;
 }
 
 .wrapper {
@@ -16,11 +17,11 @@
     padding-right: 5rem;
     margin-top: 10rem;
     width: 100%;
-    border-bottom-right-radius: 5rem;
-    border-bottom-left-radius: 5rem;
+    /* border-bottom-right-radius: 5rem;
+    border-bottom-left-radius: 5rem; */
     
     position: relative;
-    z-index: 3;
+    
 }
 
 .headings{
