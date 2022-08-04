@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+.offers__wrapper {
+    /* background: url(/src/assets/nightBuilding.jpeg); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-left: 5rem; */
+    padding-right: 5rem;
+    margin-top: -10rem;
+    width: 100%;
+
+    border-bottom-right-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+    height: 55rem;
+    z-index: 6;
+    /* background-image: url(/src/assets/nightBuilding.jpeg);
+    background-repeat: no-repeat;
+    background-position: center; */
+    /* border-bottom: 10px solid black; */
+
+    position: relative;
+    /* box-shadow: 5px 10px; */
+
+}
+
+.offers__leftSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+    font-size: 3rem;
+    text-shadow: 2px 2px #000000;
+    /* margin-top: -2rem; */
+
+}
+
+.offers__leftSection img {
+    height: 100%;
+    border-radius: 0 0 5rem 5rem;
+    /* -webkit-mask-image: linear-gradient(to top, black 50%, transparent 100%);
+    mask-image: linear-gradient(to top, black 50%, transparent 100%); */
+    -webkit-mask-image: linear-gradient(to left, transparent 0%, black 60%);
+    /* mask-image: linear-gradient(to right, black 50%, transparent 100%); */
+
+    /* -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 50%, transparent 100%); */
+}
+
+.offers__rightSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+    font-size: 1.5rem;
+    color: black;
+    padding-top: 5rem;
+    /* text-shadow: 2px 2px #000000; */
+}
+
+.offers__smallHeading {
+    position: absolute;
+    font-family: 'Alice', sans-serif;
+    font-size: 4rem;
+    margin: -20rem 0 0 13rem;
+}
+
+.offers__largeHeading {
+    /* position: absolute; */
+    font-family: 'Alice', sans-serif;
+    font-size: 10rem;
+}
+
+.offers__paragraph {
+    font-family: 'Cairo', sans-serif;
+}

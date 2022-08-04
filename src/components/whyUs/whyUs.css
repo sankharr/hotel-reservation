@@ -6,11 +6,11 @@
     padding-left: 5rem;
     padding-right: 5rem;
     background-color: white;
-    height: 45rem;
-    padding-top: 7rem;
-    /* margin-top: -10rem; */
+    height: 55rem;
+    padding-top: 16rem;
+    margin-top: -10rem;
     position: relative;
-    z-index: 2;
+    z-index: 8;
     border-bottom-right-radius: 5rem;
     border-bottom-left-radius: 5rem;
     color: black;

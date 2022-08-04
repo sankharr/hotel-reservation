@@ -1,0 +1,18 @@
+.search {
+    position: relative;
+    height: 65rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    background: url('../../assets/arielView1.jpeg');
+    padding-top: 18rem;
+    padding-bottom: 10rem;
+    margin-top: -15rem;
+    z-index: 6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom-right-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+    -webkit-mask-image: linear-gradient(to top, black 50%, transparent 100%);
+    mask-image: linear-gradient(to top, black 50%, transparent 100%);
+}
