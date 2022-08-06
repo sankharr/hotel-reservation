@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
 
-.offers__wrapper {
+.location__wrapper {
     /* background: url(/src/assets/nightBuilding.jpeg); */
     display: flex;
     align-items: center;
     justify-content: space-between;
     /* padding-left: 5rem; */
     padding-right: 5rem;
-    margin-top: -10rem;
+    /* margin-top: -10rem; */
     width: 100%;
 
     border-bottom-right-radius: 5rem;
     border-bottom-left-radius: 5rem;
-    height: 55rem;
+    height: 45rem;
     z-index: 6;
     /* background-image: url(/src/assets/nightBuilding.jpeg);
     background-repeat: no-repeat;
@@ -25,7 +25,7 @@
 
 }
 
-.offers__leftSection {
+.location__leftSection {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -37,14 +37,15 @@
 
 }
 
-.offers__leftSection img {
+.location__leftSection img {
     height: 100%;
     border-radius: 0 0 5rem 5rem;
-    -webkit-mask-image: linear-gradient(to left, transparent 0%, black 60%);
-    mask-image: linear-gradient(to left, transparent 0%, black 60%);
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 60%);
+    mask-image: linear-gradient(to right, transparent 0%, black 60%);
+    transform: scaleX(-1);
 }
 
-.offers__rightSection {
+.location__rightSection {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -52,23 +53,23 @@
     height: 100%;
     font-size: 1.5rem;
     color: black;
-    padding-top: 5rem;
+    /* padding-top: 3rem; */
     /* text-shadow: 2px 2px #000000; */
 }
 
-.offers__smallHeading {
+.location__smallHeading {
     position: absolute;
     font-family: 'Alice', sans-serif;
     font-size: 3rem;
-    margin: -20rem 0 0 13rem;
+    margin: -25rem 0 0 2rem;
 }
 
-.offers__largeHeading {
+.location__largeHeading {
     /* position: absolute; */
     font-family: 'Alice', sans-serif;
-    font-size: 10rem;
+    font-size: 8rem;
 }
 
-.offers__paragraph {
+.location__paragraph {
     font-family: 'Cairo', sans-serif;
 }

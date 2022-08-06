@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
 
-.offers__wrapper {
+.luxuryStay__wrapper {
     /* background: url(/src/assets/nightBuilding.jpeg); */
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* padding-left: 5rem; */
-    padding-right: 5rem;
-    margin-top: -10rem;
+    padding-left: 5rem;
+    /* padding-right: 5rem; */
+    /* margin-top: -10rem; */
     width: 100%;
 
     border-bottom-right-radius: 5rem;
     border-bottom-left-radius: 5rem;
-    height: 55rem;
+    height: 45rem;
     z-index: 6;
     /* background-image: url(/src/assets/nightBuilding.jpeg);
     background-repeat: no-repeat;
@@ -25,7 +25,7 @@
 
 }
 
-.offers__leftSection {
+.luxuryStay__rightSection {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -37,14 +37,14 @@
 
 }
 
-.offers__leftSection img {
+.luxuryStay__rightSection img {
     height: 100%;
     border-radius: 0 0 5rem 5rem;
-    -webkit-mask-image: linear-gradient(to left, transparent 0%, black 60%);
-    mask-image: linear-gradient(to left, transparent 0%, black 60%);
+    -webkit-mask-image: linear-gradient(to right, transparent 5%, black 60%);
+    mask-image: linear-gradient(to right, transparent 5%, black 60%);
 }
 
-.offers__rightSection {
+.luxuryStay__leftSection {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -56,19 +56,19 @@
     /* text-shadow: 2px 2px #000000; */
 }
 
-.offers__smallHeading {
+.luxuryStay__smallHeading {
     position: absolute;
     font-family: 'Alice', sans-serif;
-    font-size: 3rem;
-    margin: -20rem 0 0 13rem;
+    font-size: 2.5rem;
+    margin: -20rem 0 0 7rem;
 }
 
-.offers__largeHeading {
+.luxuryStay__largeHeading {
     /* position: absolute; */
     font-family: 'Alice', sans-serif;
-    font-size: 10rem;
+    font-size: 8rem;
 }
 
-.offers__paragraph {
+.luxuryStay__paragraph {
     font-family: 'Cairo', sans-serif;
 }
