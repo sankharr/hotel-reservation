@@ -9,6 +9,7 @@ import Offers from './components/offers/Offers';
 import LuxuryStay from './components/luxuryStay/LuxuryStay';
 import Location from './components/location/Location';
 import Experience from './components/experience/Experience';
+import Gallery from './components/gallery/Gallery';
 
 function App() {
   return (
@@ -20,7 +21,9 @@ function App() {
         <Offers/>
         <LuxuryStay />
         <Location />
+        <Gallery />
         <Experience />
+        
         {/* <Search/>
         
         <Download/> */}

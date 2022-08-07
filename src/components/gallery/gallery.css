@@ -1,0 +1,133 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap'); */
+
+.gallery__wrapper {
+    /* background: url(/src/assets/nightBuilding.jpeg); */
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-left: 5rem; */
+    /* padding-right: 5rem; */
+    margin-top: -5rem;
+    width: 100%;
+
+    border-bottom-right-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+    height: 55rem;
+    z-index: 4;
+    /* background-color: lightgray; */
+    /* background-image: url(/src/assets/nightBuilding.jpeg);
+    background-repeat: no-repeat;
+    background-position: center; */
+    /* border-bottom: 10px solid black; */
+
+    /* position: relative; */
+    /* box-shadow: 5px 10px; */
+
+}
+
+.gallery__slideContainer {
+    padding-top: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.gallery__slide {
+    display: none;
+}
+
+.gallery__slideImage {
+    width: 90vw;
+    height: 95vh;
+    /* border-radius: 3rem; */
+    mask-image: url('../../assets/mask1.png');
+    mask-size: 88vw 90vh;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    /* mask-size: cover; */
+    /* mask-position: center; */
+}
+
+
+
+.gallery__smallText {
+    position: absolute;
+    font-size: 3rem;
+    font-family: 'Alice', sans-serif;
+    color: black;
+    right: 3rem;
+    margin-top: 15rem;
+}
+.gallery__largeText {
+    position: absolute;
+    font-size: 8rem;
+    font-family: 'Alice', sans-serif;
+    color: black;
+    right: 5rem;
+    margin-top: 5rem;
+    /* top: 2rem; */
+    z-index: 12;
+}
+
+
+.gallery__prev,
+.gallery__next {
+    cursor: pointer;
+    position: absolute;
+    top: 60%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: grey;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.gallery__next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.gallery__prev:hover,
+.gallery__next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.gallery__thumbnail {
+    cursor: pointer;
+    opacity: 0.6;
+    height: 4rem;
+    width: 6rem;
+}
+
+.gallery__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom-left-radius: 5rem;
+    position: absolute;
+    margin-bottom: 1rem;
+}
+
+.gallery__row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.gallery_column {
+    float: left;
+    /* width: 16.66%; */
+}
+
+.active,
+.gallery__thumbnail:hover {
+    opacity: 1;
+}
